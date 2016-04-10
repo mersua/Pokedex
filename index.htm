@@ -9,21 +9,23 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/handler.js"></script>
     </head>
     <body>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 title_pokedex">
-                    <h1>Pokedex</h1>
-                </div>
+            <div class="page-header title_pokedex">
+                <h1>Pokedex</h1>
             </div>
             
             <div class="row">
-                <div class="col-md-12">
-                    <button onclick="loadPhones()" id="button">Загрузить phones.json!</button>
+                <div id="body_pokedex" class="col-md-9">
+                    <!-- body pokemons -->
                 </div>
-            </div>                        
+                <div class="col-md-3">
+                    <!-- single pokemon -->
+                </div>    
+            </div>                       
         </div>
+        
+        <script src="js/handler.js"></script>
     </body>
 </html>
