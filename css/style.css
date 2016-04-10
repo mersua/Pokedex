@@ -40,3 +40,11 @@
 {
     margin-right: 10px;
 }
+
+#loader
+{
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+}

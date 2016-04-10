@@ -41,7 +41,7 @@ function loadPokedex(url) {
             if(i == 1)
                 html_pokemon = '<div class="row">';
                 
-            html_pokemon = html_pokemon + '<div class="col-md-4"><div class="item">\
+            html_pokemon = html_pokemon + '<div class="col-md-4"><div class="item" onclick="loadSinglePokemon(' + pokemon.pkdx_id + ');">\
                 <div class="image_pokedex"><img src="http://pokeapi.co/media/img/' + pokemon.pkdx_id + '.png" class="img-responsive" alt="' + pokemon.name + '"></div>\
                 <p class="name_pokedex"><strong>' + pokemon.name + '</strong></p>\
                 <p class="type_pokedex">' + type_pokedex + '</p>\
@@ -56,10 +56,38 @@ function loadPokedex(url) {
           }
 
           var body_pokedex = document.getElementById('body_pokedex');
+          loader.style.display = "none";
           body_pokedex.innerHTML = html_pokemon;
         }
       }
 }
 
-loadPokedex('http://pokeapi.co/api/v1/pokemon/?limit=12');
+//setup loader in the center of the window
+var loader = document.getElementById('loader');
+var top_loader = document.documentElement.clientHeight / 2 - 150;
+var left_loader = document.documentElement.clientWidth / 2 - 150;
+
+loader.style.top = top_loader + 'px';
+loader.style.left = left_loader + 'px';
+loader.style.display = "block";
+    
+function loadSinglePokemon(id) {
+    alert(id);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
