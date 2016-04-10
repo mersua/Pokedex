@@ -4,7 +4,7 @@ Client intarface for pokeapi.co
 1. Unzip the application archive to the root directory
 2. You should obtain the following structure of directory and files
 
-Name                       | Contents
+Name                       | Description
 ---------------------------|-------------------------------------------------
 img                        | application images directory
 fonts                      | directory for the fonts that use Bootstrap
