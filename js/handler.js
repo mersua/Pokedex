@@ -71,6 +71,8 @@ loader.style.top = top_loader + 'px';
 loader.style.left = left_loader + 'px';
 loader.style.display = "block";
     
+loadPokedex('http://pokeapi.co/api/v1/pokemon/?limit=12');
+
 function loadSinglePokemon(id) {
     alert(id);
 }
