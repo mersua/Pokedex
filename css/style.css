@@ -4,12 +4,23 @@
     text-align: center;
 }
 
-.item
+.item, .single_pokemon
 {
     border: 1px solid #000033;
     text-align: center;
     margin-bottom: 30px;
     cursor: pointer;
+}
+
+.single_pokemon
+{
+    padding: 20px;
+}
+
+.single_pokemon:hover
+{
+    background: #CCFFFF;
+    border: 1px solid #ffffff;
 }
 
 .item:hover
@@ -22,6 +33,11 @@
 {
     font-size: 15px;
     margin: 20px;
+}
+
+.name_pokemon
+{
+    font-size: 20px;
 }
 
 .image_pokedex
@@ -47,4 +63,26 @@
     display: none;
     top: 0px;
     left: 0px;
+    z-index: 10;
+}
+
+.load_more
+{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.btn-load_more
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer_pokedex
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;    
 }

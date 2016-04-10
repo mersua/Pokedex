@@ -12,7 +12,7 @@
     </head>
     <body>
         <div id="loader">
-            <img src="img/loader.gif" class="img-responsive" alt="Responsive image">
+            <img src="img/loader.gif" class="img-responsive" alt="Loading">
         </div>
         <div class="container">
             <div class="page-header title_pokedex">
@@ -22,13 +22,21 @@
             <div class="row">
                 <div id="body_pokedex" class="col-md-9">
                     <!-- body pokemons -->
+                    <div class="mask"></div>
                 </div>
-                <div class="col-md-3">
+                <div id="body_single_pokemon" class="col-md-3">
                     <!-- single pokemon -->
+                    <div class="image_pokedex"><img src="img/select.png" class="img-responsive" alt="Select Pokemon for a detailed view"></div>
+                    <h3 class="text-center">Select Pokemon for a detailed view</h3>
                 </div>    
-            </div>                       
+            </div> 
+            
+            <!-- Site footer -->
+            <footer class="footer footer_pokedex">
+                <p>&copy; 2016 Yaroslav Grobovenko (mersua)</p>
+            </footer>               
         </div>
-        
+  
         <script src="js/handler.js"></script>
     </body>
 </html>
