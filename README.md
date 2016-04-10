@@ -16,4 +16,5 @@ js/bootstrap.min.js        | minimum set of scripts Bootstrap
 js/handler.js              | the main application file handler
 index.htm                  | the index file to check the changes
 
-3. After unpacking, the application will be available at the link your_document_root/index.htm
+
+After unpacking, the application will be available at the link your_document_root/index.htm
