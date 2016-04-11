@@ -12,7 +12,6 @@ css                        | directory for the application of styles
 css/bootstrap.min.css      | minimum set of styles Bootstrap
 css/style.css              | user styles
 js                         | application scripts directory
-js/bootstrap.min.js        | minimum set of scripts Bootstrap
 js/handler.js              | the main application file handler
 index.htm                  | the index file to check the changes
 
